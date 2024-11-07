@@ -165,12 +165,20 @@ button {
     gap: 5px;
 }
 
+.songwhat {
+    font-size: 12px;
+    width: 100%;
+    color: rgb(103, 103, 103);
+    margin-bottom: 0;
+}
+
 #range {
     width: 100%;
     height: 1px;
 }
 
 .time {
+    font-size:12px ;
     display: flex;
     justify-content: space-between;
 }
@@ -183,6 +191,12 @@ button {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+title {
+    background-color: transparent;
+    border: 1px solid black;
 }
 
 /* end of middle container */
