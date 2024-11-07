@@ -165,7 +165,7 @@ button {
     gap: 5px;
 }
 
-.songwhat {
+.forU {
     font-size: 10px;
     width: 100%;
     color: rgb(103, 103, 103);
@@ -177,8 +177,15 @@ button {
     height: 1px;
 }
 
+.songDuration {
+    font-size: 10px;
+}
+
+#currentTime {
+    font-size: 10px;
+}
+
 .time {
-    font-size:12px ;
     display: flex;
     justify-content: space-between;
 }
