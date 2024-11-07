@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <img src="image/star.png" class="star">
+        <img src="image/pinkheart.jpg" class="pink-heart">
+        <img src="image/tulips.png" class="tulips">
+        <div class="image-container">
+        <div class="js-letter"></div>
+            <div class="left">
+               <div class="upper-left">
+                    <img src="image/fan.gif" class="fan">
+               </div>
+               <div class="middle-left">
+                    <p class="qoute">"If I had a<br> flower for every time I thought  
+                        of you, <br>I could walk in my garden <br>forever."<br>
+                    </p>
+                    <img src="image/ticket.jpg" class="ticket">
+               </div>
+               <div class="lower-left">
+                    <img src="image/heart.gif" class="heart">
+               </div>
+            </div>
+            <div class="middle">
+                <div class="upper">
+                    <button onclick="letterActivate()" class="readMe"><i class="fa-regular fa-image"></i> Read me <i class="fa-solid fa-heart"></i></button>
+                </div>
+                <div class="her-image"></div>
+                <div class="song">
+                    <div class="song-container">
+                        <div class="music-photo"></div>
+                        <div class="mid-song">
+                            <div class="range-container">
+                                <input type="range" id="range">
+                            </div>
+                            <div class="time">
+                                <p id="currentTime"></p>
+                                <p class="songDuration"></p>
+                            </div>
+                        </div>
+                        <div class="play-button">
+                            <i class="js-play fa-solid fa-play"></i> 
+                            <audio src="music/Joji - Sanctuary ｜ Lyrics.mp3" id="audio"></audio>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right">
+                <div class="upper-right">
+                    <div class="right-letter">
+                        <p class="sticky">Falling in love with you has been the best thing for me in this life. 
+                            I still wonder how such a beautiful, loving, and caring girl can love someone like me. 
+                            I think I have just been lucky.  I swear to never stop pursuing you,
+                             to always be there for you, and to keep you smiling.
+                        </p>
+                    </div>
+                </div>
+                <div class="lower-right">
+                    <img src="image/disc.gif" class="disc" >
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container2">
+        <div class="title">
+            <p class="desc">- Things I love about you <i class="fa-regular fa-heart"></i></p>
+        </div>
+
+        <div class="pictures">
+            <div class="box1 boxes-action">
+                <p class="aboutYou">You have the cutest smile! It makes my day 🥰</p>
+            </div>
+            <div class="box boxes-action">
+                <p class="aboutYou">Your arms feels like a safe place 🫣</p>
+            </div>
+            <div class="box1 boxes-action">
+                <p class="aboutYou">Your are so hot and cute 🥵</p>
+            </div>
+            <div class="box boxes-action">
+                <p class="aboutYou">You add extra happiness to each day. I'm not sure how you do it 🤯</p> 
+            </div>
+
+
+            <div class="box boxes-action">
+                <p class="aboutYou">You make every moment feel special, no matter how small ✨</p>
+            </div>
+            <div class="box boxes-action">
+                <p class="aboutYou">Your are so kind to everything and anyone 😚</p>
+            </div>
+            <div class="box1 boxes-action">
+                <p class="aboutYou">I feel completely myself when I’m with you 🤪</p>
+            </div>
+            <div class="box1 boxes-action">
+                <p class="aboutYou">Being with you feels like home 🏡</p>
+            </div>
+
+            
+
+            <div class="box boxes-action">
+                <p class="aboutYou">You have the warmest heart, and it makes me feel so loved ❤️</p>
+            </div>
+            <div class="box1 boxes-action">
+                <p class="aboutYou">I love the way you laugh, it’s so contagious 😂</p>
+            </div>
+            <div class="box boxes-action">
+                <p class="aboutYou">You’re my biggest cheerleader, always supporting me 🎉</p>
+            </div>
+            <div class="box1 boxes-action">
+                <p class="aboutYou">Your voice is one of my favorite sounds 🥰</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
